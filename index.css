@@ -1,0 +1,93 @@
+
+#page{
+    max-width: 1200px;
+    margin: 0 auto; 
+    position: relative;
+}
+element {
+    -ms-overflow-style: none;
+    -ms-scroll-limit: none;
+    overflow-y: scroll; 
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{ 
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px; 
+    color: white; 
+    margin:0; 
+    padding:0; 
+    background-color: black;
+}
+.logo{
+    width: 85px;
+    height: 85px;
+}
+.logo-m{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.logo:hover{
+    background-color:rgba(0, 255, 55, 0.938);;
+    color: black;
+    border-radius: 10px;
+}
+nav{
+    background-color:black;
+    overflow: hidden;
+    height: fit-content;
+    width: 100%;
+}
+nav a{
+    color: white;
+    background-color: black;
+    float: left;
+}
+.navbr{
+    width: 100%;
+    position: relative;
+}
+.navbr a{
+    float: right;
+    color: white;
+    text-align: right;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}
+.navbr a:hover{
+    background-color:rgba(0, 255, 55, 0.938);
+    color: black;
+    border-radius: 10px;
+}
+.logo-strech{
+    width: 250px;
+    height: 83px;
+    position: relative;
+    align-self: center;
+}
+.container1{
+    height: fit-content;
+    width: 100%;
+    position:relative;
+    left: 37%;
+}
+.active{
+    background-color: rgb(254, 61, 0);
+}
+.container2{
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    top: 15%;
+    align-self: center;
+    text-align: center
+}
+.cont2-m{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
